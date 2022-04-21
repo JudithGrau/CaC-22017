@@ -1,4 +1,3 @@
-
 # Lección 2: Introducción Integral a Javascript
 
 En esta lección cubriremos:
@@ -17,9 +16,6 @@ En esta lección cubriremos:
 * Funciones flecha
 * Switch
 * Introducción a Node y NPM
-
-
-
 
 ## Introducción a Javascript
 
@@ -46,7 +42,6 @@ Existen tres formas de declarar una variable:
 ### var
 
 `var` es la forma declarar una variable en ES5 . Esta es una _palabra clave_ genérica para "variable".
-
 
 ### let
 
@@ -211,8 +206,6 @@ console.log(a, b, c);
 ```
 
 Qué veriamos en el console.log? Para eso tenemos que revisar la tabla por la asociatividad del operador de asignación `=`. Este tiene una precedencia de 3 y una asociatividad de `right-to-left`, es decir que las operaciones se realizan primero de derecha a izquierda. En este caso, primero se realiza `b = c` y luego `a = b` (en realidad al resultado de `b = c`, que retorna el valor que se está asignando). Por lo tanto al final de todo, todas las variables van a tener el valor `3`. Si la asociatividad hubiese al revés, todos las variables tendrían el valor `1`.
-
-
 
 ## Control de flujo y operadores de comparación
 
