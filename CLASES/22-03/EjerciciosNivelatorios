@@ -1,0 +1,28 @@
+//Ejercicio
+// declarar una variable que se llame nombre
+//el dato que le pasamos a la variable se lo pedimos al usuario en un prompt
+//mostramos un alerta con la cantidad de caracteres del nombre que ingreso el usuario/a
+
+//Ejercicio
+//pido un nombre al usuario/a
+//pido al usuario/a que ingrese un numero
+//hola "nombre de usuaria/o te pedimos que ingreses un numero"
+//alerta con "nombreusuaria/o" tiene (numero de letras) caracteres; 
+//le sumamos el numero que ingresaste el resultado es (numero de letras + numero ingresado)
+
+//Ejercicio
+// Escribe un programa de una sola línea que haga que aparezca en la pantalla un alert que diga «Hello Arbi».
+
+//Ejercicio
+//Escribe un programa de una sola línea que escriba en la pantalla un texto que diga «Hello Arbi» (document.write).
+
+
+//Ejercicio
+//Escribe un programa de una sola línea que escriba en la pantalla el resultado de sumar 3 + 5.
+
+//Ejercicio
+//Escribe un programa de dos líneas que pida el nombre del usuario con un prompt y escriba un texto que diga «Hola (nombre)»
+
+
+//Ejercicio
+// Escribe un programa de dos lineas que pida el nombre al usuario con un prompt y escriba un texto que diga «Hola (nombre) tu nombre tiene (cantidad) letras»
