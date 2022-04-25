@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 3</title>
+</head>
+<body>
+    <h3 style="text-decoration: underline;">Ejercicio 1 Generar número aleatorio dentro de un rango</h3> 
+    <p>
+        <b>1a- Calcular un número random o aleatorio dentro de un rango en Javascript no es tan trivial 
+        como en otros lenguajes.</b>  <br>
+
+        La función que usaremos (Math.random())
+        nos devuelve un número aleatorio con decimales entre 0 y 1. <br>
+        <button style="margin-top: 10px; background-color: aquamarine; border-radius: 20px;" type="button" onclick="agregar_rta1a()">respuesta ej 1a</button>
+        <p id="rta1a"><b>Número random o aleatorio: </b></p>
+
+        <b>1b- Luego nosotros, haciendo uso de sumas y redondeos debemos transformar
+        ese número aleatorio entre 0 y 1 a un número aleatorio entre 25 y 75, por ejemplo.</b>  <br>
+
+        Para ello, yo utilizo la fórmula que indico a continuación. 
+        La copio, la pego y sustituyo los valores. Es una fórmula fácil de razonar, pero francamente, cuando la necesito, la copio y la pego: <br>
+
+        Math.floor(Math.random() * (MAX - MIN + 1)) + MIN; <br>
+
+        Como ejemplo, si deseamos generar un número aleatorio entre 10 y 5, la sentencia sería <br>
+        
+        Math.floor (Math.random() * (10 - 5 + 1)) + 5; <br>            
+        <button style="margin-top: 10px; background-color: aquamarine; border-radius: 20px;" type="button" onclick="agregar_rta1b()">respuesta ej 1b</button>
+        <p id="rta1b"><b>Número aleatorio entre 25 y 75: </b></p>
+    </p>
+    <br>
+    <hr>
+<!-- --------------------------------------------------- -->
+
+    <h3 style="text-decoration: underline;">Ejercicio 2</h3>
+    <p>
+        <p>Ejercicios números aleatorio</p>
+        <p>investigar <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/charAt" target="_blank" rel="noopener noreferrer">https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/charAt</a></p>
+        
+        <p>a. Obtener un número aleatorio entre 5 y 7.</p>
+            <button style="margin-top: 10px; background-color: aquamarine; border-radius: 20px;" type="button" onclick="agregar_rta2a()">respuesta ej 2a</button>
+            <p id="rta2a"><b>Número aleatorio entre 5 y 7: </b></p>
+            
+        <p>b. Ejercicio letra aleatoria</p>
+        <p>Obtener una letra aleatoria de tu nombre.</p>
+        <p>Tendrás que usar los siguientes códigos:</p>
+        <p>nombre.charAt();<br>
+        nombre.length;</p>
+        <p>Calculamos un número aleatorio en un rango comprendido entre 0 y el número de letras de tu nombre.</p>
+        <p>Utilizamos ese número aleatorio para obtener la letra de tu nombre que ocupa esa posición.</p>    
+        <p>Mostramos la letra en la pagina.</p>
+
+        <button style="margin-top: 10px; background-color: aquamarine; border-radius: 20px;" type="button" onclick="agregar_rta2()">respuesta ej 2</button>
+        <p id="rta2"><b>Obtener una letra aleatoria de tu nombre: </b></p>
+    </p>
+        <br>
+        <hr>       
+<script src="../clase3/main.js"></script>
+</body>
+</html>
